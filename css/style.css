@@ -9,6 +9,11 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
+
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+}
 /*========HEADER=======*/
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -16,7 +21,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo2 {
@@ -25,7 +30,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: black;
+  color: var(--main-color);
 }
 
 .menu-link {
@@ -33,15 +38,15 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .link-current {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 .menu-link:focus,
 .menu-link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .menu-contacts-link {
   font-weight: 500;
@@ -53,7 +58,7 @@ body {
 
 .menu-contacts-link:hover,
 .menu-contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*=========HERO=========*/
@@ -80,7 +85,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
 }
@@ -131,7 +136,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-logo2 {
@@ -164,7 +169,7 @@ body {
 
 .footer-link:hover,
 .footer-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*=====PORTFOLIO MENU=======*/
@@ -179,7 +184,7 @@ body {
 }
 .bth-menu:focus,
 .bth-menu:hover {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 /*========PORTFOLIO HERO=======*/
